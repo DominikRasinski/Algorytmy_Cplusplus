@@ -22,7 +22,7 @@ int binarySearch(int list[], int n, int number){
         mid = (low+heigh)/2;
         guess = list[mid];
         if(guess == number){
-            return mid;
+            return tab[mid];
         }
         if(guess > number){
             heigh = mid - 1;
